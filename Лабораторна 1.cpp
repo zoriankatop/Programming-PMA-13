@@ -29,11 +29,11 @@ int main() {
 				x_min = x_max = x;
 				y_min = y_max = y;
 			}
-			else if (y < y_min) {
+			if (y < y_min) {
 				x_min = x;
 				y_min = y;
 			}
-			else if (y > y_max) {
+			if (y > y_max) {
 				x_max = x;
 				y_max = y;
 			}
